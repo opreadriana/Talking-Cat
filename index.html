@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Webmanifest -->
+    <link rel="manifest" href="site.webmanifest" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- JavaScript -->
+    <script defer src="script.js"></script>
+
+    <title>Talking Duck</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        
+      </header>
+
+      <!-- Main element -->
+      <main>
+        <!-- Text input -->
+        <textarea placeholder="Write something here..."></textarea>
+
+        <!-- Controls -->
+        <div class="controls">
+          <button>
+            <img src="playbutton.png" alt="Play Button" />
+          </button>
+
+          <!-- Audio controls -->
+          <div class="pitch-controls">
+            <label for="pitch-range">Pitch</label>
+            <input id="pitch-range" min="0.1" max="2" step="0.1" value="1" type="range" />
+          </div>
+        </div>
+
+        <br>
+        <br>
+        <!-- Duck -->
+        <figure class="cat">
+          <img class="cat" src="staticcat.webp" alt="Cat" />
+        </figure>
+      </main>
+
+    </div>
+  </body>
+</html>
